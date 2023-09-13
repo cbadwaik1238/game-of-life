@@ -56,8 +56,7 @@
                 <version>2.6</version>
             </plugin>
         </plugins>
-    </reporting>
-</project>        
+    </reporting>        
         <build>        
             <pluginManagement>
                 <plugins>
@@ -80,4 +79,14 @@
                 </plugins>
             </pluginManagement>
         </build>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.easyb</groupId>
+                <artifactId>easyb-core</artifactId>
+                <version>${easyb.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
