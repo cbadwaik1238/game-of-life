@@ -73,8 +73,7 @@
                         </executions>
                         <configuration>
                             <storyType>xml</storyType>                         l
-                            <storyReport>${basedir}/target/easyb/report.xml
-                            </storyReport>
+                            <storyReport>${basedir}/target/easyb/report.xml</storyReport>
                         </configuration>
                     </plugin>
     
