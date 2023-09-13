@@ -72,8 +72,8 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <storyType>html</storyType>                         l
-                            <storyReport>${basedir}/target/easyb/easyb-report.html
+                            <storyType>xml</storyType>                         l
+                            <storyReport>${basedir}/target/easyb/xmlreport.html
                             </storyReport>
                         </configuration>
                     </plugin>
