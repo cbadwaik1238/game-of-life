@@ -57,6 +57,7 @@
             </plugin>
         </plugins>
     </reporting>        
+</project>    
         <build>        
             <pluginManagement>
                 <plugins>
@@ -89,4 +90,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-</project>
+
