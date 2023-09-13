@@ -76,7 +76,6 @@
                             <storyReport>${basedir}/target/easyb/report.xml</storyReport>
                         </configuration>
                     </plugin>
-    
                 </plugins>
             </pluginManagement>
         </build>
